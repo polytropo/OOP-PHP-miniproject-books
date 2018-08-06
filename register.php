@@ -23,7 +23,7 @@
 					$error = "Email is already in use";
 				} else {
 					$getFromUser->register($email, $name, $password);
-					header('Location: home.php');
+					// header('Location: home.php');
 					
 				}
 			}
